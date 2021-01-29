@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+    /* font-family: "yg-jalnan"; */
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.content {
+    font-family: 'Poppins';
+    font-weight: normal;
+}
+
+
+/* main title */
+#main_title {
+    position: relative;
+
+    height: 150px;
+    text-align: center;
+}
+#main_title_text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.section_2020 {
+    display: flex;
+
+    margin-bottom: 50px;
+}
+.section_2020_title {
+    display: flex;
+
+    margin-bottom: 50px;
+}
+.item_2020 {
+    flex-grow: 1;
+    flex-basis: 0;
+
+    word-break: keep-all;
+}
+.item_2020_margin {
+    margin-left:4%;
+    margin-right: 4%;
+}
+.item_middle_2020 {
+    flex-grow: 2;
+    flex-basis: 0;
+
+    margin: 0 25px 0 25px;
+}
+.section_review_1 {
+    display: flex;
+}
+.item_img_2020_1 {
+    width: 15vw;
+}
+.section_review_2 {
+    display: flex;
+}
+.item_img_2020_2 {
+    width: 15vw;
+}
+
+.time_margin {
+    margin-right: 25px;
+}
+
+.item_text {
+    font-size: 16px;
+}
+
+.img_2020_total {
+
+}
+.img_2 {
+    margin: 0 20px 0 20px;
+}
+.img_3 {
+    margin-right: 20px;
+}
+
+/* footer logo */
+.logo_img {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .section_2020 {
+        flex-direction: column;
+    }
+    .item_2020_margin {
+        margin: 0;
+    }
+
+    .item_text {
+        font-size: 14px;
+    }
+
+    .section_review_1 {
+        flex-direction: column;
+    }
+    .item_img_2020_1 {
+        width: 50%;
+        margin: 0 25% 10px 25%;
+    }
+    .section_review_2 {
+        flex-direction: column-reverse;
+    }
+    .item_img_2020_2 {
+        width: 50%;
+        margin: 0 25% 10px 25%;
+    }
+
+    .img_2 {
+        margin: 0;
+    }
+    .img_3 {
+        margin:0;
+    }
+    .img_2020_total {
+        margin: 0 2vw 5vw 1vw;
+    }
+
+    .time_margin {
+        margin-bottom :4vw;
+    }
+    .time_margin_total {
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    
+    
+}
